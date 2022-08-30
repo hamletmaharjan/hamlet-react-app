@@ -17,7 +17,7 @@ jobs:
             "echo Start deploy && \
             cd ~/hamlet-react-app && \
             git pull origin master && \
-            sudo docker compose up --build -d && \
+            sudo docker-compose up --build -d && \
             echo Deploy end"
 workflows:
   version: 2
