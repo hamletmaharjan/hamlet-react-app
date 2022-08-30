@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Deploy
           command: |
-            ssh -o StrictHostKeyChecking=no ubuntu@3.237.81.17 \
+            ssh -o StrictHostKeyChecking=no ubuntu@3.236.189.38 \
             "echo Start deploy && \
             cd ~/hamlet-react-app && \
             git pull origin master && \
